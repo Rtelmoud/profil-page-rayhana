@@ -1,0 +1,93 @@
+/* Write some CSS below */
+.container{
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 700px;
+    margin:40px auto;
+    font-family: "Montserrat",serif;
+    color: rgb(0, 0, 0);
+}
+.h1{ 
+    font-family:"Montserrat, serif";
+    font-weight: 400;
+}
+body {
+    text-align: center;
+    background-image: url(images/summer-background-abstract-background-wallpaper-use-for-presentation_HDDYoJOhMg_thumb.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+}
+.case-couleur{ 
+    background-color: rgb(255, 212, 194);
+    border-radius: 5px;
+    box-shadow: rgba(255, 225, 192, 0.703);
+    margin: 20px;
+    padding: 40px ;
+    text-align: center;
+    font-size: 15px;
+    font-family: "roboto",serif;
+    color: rgb(0, 0, 0);
+}
+.img-circle{
+    border-radius:  50%;
+    height: 150px;
+    border: 5px solid #00000  
+}
+.btn-brown{
+    text-decoration: none;
+    color:bisque;
+    background-color: rgb(165, 56, 56);
+    padding: 15px 25px;
+    font-family: "Montserrat",serif;
+    font-weight: 700;
+    box-shadow: 10px 10px 0 rgb(253, 255, 253);
+    transition: 0,5s;
+    display: inline-block;
+} 
+
+.btn-brown:hover{ 
+    opacity: 0.7;
+    background-color: rgb(241, 176, 161);
+    transform: translate(10px 10px);
+    box-shadow: 0px 0px 0px rgb(253, 255, 253); 
+    background-color: rgb(66, 69, 66);
+    opacity: 0.7;
+}
+h2 {
+    text-align: center;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    margin : 10px 150px;
+    color: rgb(0, 0, 0);
+    Padding: 15px 25px
+    font-family: "Montserrat",serif;
+  }
+  .List-inline{ 
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+.List-inline li { 
+    display: inline;
+    
+}
+.List-inline  li i {font-size: 60px;
+   color: rgb(255, 255, 255);
+   margin: 0 50px;
+}
+.List-inline li i:hover{ 
+    opacity: 0.7;
+}
+.contact { 
+    font-family: 'monteserrat', serif ;
+    font-weight: 800;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+#profil-intro p { 
+    margin-bottom: 50px;
+}
